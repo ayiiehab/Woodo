@@ -1,0 +1,96 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-image: url(../images/banner-bg.png);
+    background-size : cover;
+    color           : white;
+
+}
+
+#navbarSupportedContent ul li a {
+    color: #fff;
+}
+
+.header-layer {
+    position: relative;
+    top: 15%;
+}
+.sideImg{
+    position: relative;
+}
+.sideImg img {
+    width: 75%;
+    position: absolute;
+    right: 5%;
+    top:5%;
+}
+.header-content {
+    position: relative;
+}
+.header-content h1{
+    position: absolute;
+    left: 15%;
+    top:5%;
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 80px;
+
+}
+.header-content h1 span{
+    color: #000;
+}
+.header-content p{
+    margin-top: 20px;
+    position: absolute;
+    left: 15%;
+    top:50%;
+    font-size: 20px;
+}
+.lineIcon{
+    position: absolute;
+    left: 8%;
+    top:15%
+}
+.lineMark{
+    position: absolute;
+    left: 6%;
+    top:7%;
+}
+.lineMark2{
+    position: absolute;
+    left: 6%;
+    top:63%;
+}
+.btn{
+    position: absolute;
+    bottom: 5%;
+    border-radius: 0%;
+    margin: 10px;
+}
+.btnOne{
+    left: 10%;
+    background-color: #fff;
+    color: #000;
+    padding: 7px 40px;
+    font-weight: bold;
+
+    
+}
+.btnTwo{
+    left: 23%;
+    background-color: #000;
+    color: #fff;
+    padding: 7px 40px;
+    font-weight: bold;
+    
+}
+.btnTwo:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btnOne:hover{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+
+}
