@@ -1,3 +1,9 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -93,6 +99,34 @@ header {
     background-color: #000;
     color: rgb(255, 255, 255);
 
+}
+.title{
+    padding-left: 40px;
+}
+.title h2{
+    font-size:45px;
+}
+.test{
+    background-color: #fee421;
+    color:white;
+}
+.but{
+    margin-top:250px;
+    background-color: black;
+    color: white;
+    border:transparent;
+    margin-left:10px;
+ 
+}
+.img{
+    
+  width:360px;
+}
+.caption{
+    font-weight: 18px;
+    font-weight: bold;
+    padding-top:80px;
+    padding-left:40px;
 }
 .text {
     
